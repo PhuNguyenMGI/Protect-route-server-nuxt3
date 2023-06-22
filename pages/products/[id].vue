@@ -9,7 +9,7 @@
             <label for="auth">Authorization:</label>
             <input type="text" id="auth" class="w-full border rounded" v-model="authKey">
             <button class="mt-3 border p-2 rounded bg-orange-500 text-white" @click="callback">Access products page</button>
-            <NuxtLink to="/products">Back to products</NuxtLink>
+            <NuxtLink class="block" to="/products">Back to products</NuxtLink>
         </div>
     </Popup>
 </template>
